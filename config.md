@@ -18,6 +18,7 @@
 
 ```shell
 #!/bin/sh
+#change monitor number
 xrandr --output HDMI-1 --left-of eDP-1
 #fcitx need
 export XMODIFIERS=@im=fcitx
@@ -32,6 +33,7 @@ xcompmgr -c &
 nm-applet --sm-disable &
 update-notifier &
 ss-qt5 &
+#change client path in this shell script
 sh start-kcptun.sh &
 
 exec awesome
@@ -42,7 +44,7 @@ exec awesome
 ## packages:
 * autoprefixer
 * color-picker
-* dockblockr
+* docblockr
 * es6-javascript
 * file-icons
 * linter
@@ -51,7 +53,7 @@ exec awesome
 * minimap-git-diff
 * minimap-linter
 * react-snippets
-* realative-numbers
+* relative-numbers
 * terminal-plus
 * vim-mode-plus
 * vim-mode-plus-ex-mode
