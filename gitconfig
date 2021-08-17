@@ -1,0 +1,30 @@
+[alias]
+    st = status
+    co = checkout
+    cb = checkout -b
+    aa = add .
+    ca = commit -a
+    cm = commit -m
+    ft = fetch
+    bd = branch -D
+    sa = stash apply
+    pu = !git pom && git pull && git push
+    po = push origin -u
+    pom  = pull origin master
+    ri = rebase -i
+    bu = branch -u
+    com = checkout master
+    mr = merge
+    lg = log --graph
+[core]
+    editor = vim
+    ignorecase = false
+[user]
+    name = 'mingholy.lmh'
+    email = 'mingholy.lmh@alibaba-inc.com'
+#    name = 'mingholy.lmh'
+#    email = 'mingholy.lmh@gmail.com'
+#[http]
+#    proxy = socks5://127.0.0.1:1086
+#[https]
+#    proxy = socks5://127.0.0.1:1086
